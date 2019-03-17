@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OMDB + Clojurescript</title>
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row"><!-- search form row -->
+      <div class="col-md">
+        <header class="c-Search_Header">
+          <h1>Search OMDB</h1>
+        </header>
+        <form id="search-form">
+          <div class="form-group">
+            <label for="search-title">Title</label>
+            <input class="form-control" id="search-title" name="search-title" type="text" placeholder="Title">
+          </div>
+          <button class="btn btn-primary" id="search-btn" type="submit">Search</button>
+        </form>
+      </div>
+    </div><!-- end search form row -->
+    <div class="row"><!-- search results row -->
+      <div class="col-md c-SearchResults_Container">
+        <header class="c-SearchResults_Header">
+          <h2>Search Results</h2>
+        </header>
+        <div class="c-SearchResults_Results" id="search-results"></div>
+      </div>
+    </div><!-- end search results row -->
+  </div>
+  <script src="cljs-out/omdb-main.js"></script>
+</body>
+</html>

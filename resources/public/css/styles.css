@@ -1,0 +1,23 @@
+body {
+  margin-top: 2em;
+}
+
+.c-Search_Header {
+  display: block;
+  margin-bottom: 1.5em;
+}
+
+.c-SearchResults_Container {
+  margin-bottom: 2em;
+  margin-top: 2em;
+  padding-top: 1.5em;
+}
+
+.c-SearchResults_Header {
+  display: block;
+  margin-bottom: 2em;
+}
+
+.c-SearchResults_Results h3 {
+  margin-top: 1em;
+}
